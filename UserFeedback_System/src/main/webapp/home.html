@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Feedback form</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link
+	href="https://fonts.googleapis.com/css?family=josefin+Sans&display=swap"
+	rel="stylesheet">
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+<script
+	src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <div class="nav" style=" background-color: #f2f0ef; width:100vw; height: 50px; border-width: 2px; border-radius: 4px">
+        <div style=" padding: 10px 10px">
+	      <a href='feedbacklist' >Feedback List</a>
+	    </div>
+	</div>
+	
+	<div class="view">
+		 <img src="1.jpg">
+	</div>
+	
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-md-8">
+				<h1 class="text-center mt-5 font-weight-bold">feedback</h1>
+				<hr class="bg-white">
+				<h6 class="text-center">Please write your feedback below:</h6>
+				<h3 class="mt-4">How do you rate your overall experience?</h3>
+
+				<form action="Submit" method="post">
+					<label class="radio-inline"><input type="radio"
+						name="experience" value="bad">Bad</label> <label
+						class="radio-inline"><input type="radio" name="experience"
+						value="average">Average</label> <label class="radio-inline"><input
+						type="radio" name="experience" value="good">Good</label>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-2"></div>
+			<label class="col-md-4">Full Name*<br> <input
+				type="text" name="name" id="text" required="" placeholder="name"></label>
+			<label class="col-md-4">Email* <br> <input type="text"
+				name="email" id="text" required="" placeholder="email"></label>
+		</div>
+
+		<div class="row">
+			<div class="col-md-2"></div>
+			<label class="col-md-4">Age*<br> <input type="number"
+				name="age" id="text" required="" placeholder="age"></label> <label
+				class="col-md-4">Phone* <br> <input type="number"
+				name="phone" id="text" required="" placeholder="phone"></label>
+		</div>
+
+		<div class="row">
+			<div class="col-md-2"></div>
+			<label class="col-md-8">Message*<br> <textarea
+					id="message" name="message" required=""
+					placeholder="Write a message here" cols="48" rows="5"></textarea>
+			</label>
+
+		</div>
+
+		<div class="row">
+			<div class="col-md-2"></div>
+			<button class="btn btn-primary" style="width: 53.55%; position: absolute; margin-left: 15%;">Submit</button>
+
+		</div>
+		
+		</form>
+	</div>
+
+	</div>
+	</div>
+
+</body>
+</html>

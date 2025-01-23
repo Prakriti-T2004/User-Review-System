@@ -1,0 +1,55 @@
+body{
+	font-family: 'josefin Sans', Sans-serif;
+}
+
+img{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-size: cover; 
+	background-position: center;
+}
+
+.radio-inline{
+	margin: 0px 40px 20px 0px;
+	cursor: pointer;
+}
+
+label{
+	color: #000;
+}
+
+#text{
+	height: 40px;
+	border-radius: 5px;
+	border-width: 2px;
+	paddin-left: 10px;
+	font-size: 14px;
+	width: 100%;
+	color: black;
+
+}
+
+#message{
+	outline: none;
+	border-width: 2px;
+	padding: 10px 0px 0px 15px;
+	font-size: 16px;
+	color: #000;
+	border-radius: 5px;
+	width: 100%;
+}
+
+.btn{
+	background-color: #3b6790;
+}
+
+.nav{
+	width: 100vw;
+	height: 100px;
+	color: grey;
+	background-color: black;
+}
+
+
+
